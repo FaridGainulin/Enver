@@ -176,3 +176,70 @@ h1 {
   letter-spacing: -0.5px;
   margin-top: 10px;
 }
+
+.portfolio {
+  margin-top: 80px;
+}
+
+.section-title {
+  font-size: var(--section-title-size);
+  color: var(--white-color);
+  font-family: var(--main-family);
+}
+
+.portfolio-list {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfilio-list__item-second {
+  margin-top: 50px;
+}
+
+.portfilio-list__item-third {
+  margin-top: 100px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 80px;
+}
+
+.dots__item {
+  width: 8px;
+  height: 8px;
+  background-color: var(--dot-black);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dots .active {
+  width: 16px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.contact-us {
+  margin-top: 100px;
+}
+
+.contact-us .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us .section-title {
+  max-width: 800px;
+}
+
+.site-data {
+  color: var(--main-color);
+}
+
+footer {
+  margin: 100px 0 30px;
+}
