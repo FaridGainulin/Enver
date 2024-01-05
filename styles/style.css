@@ -7,6 +7,9 @@
 
 body {
   background-color: var(--main-bg-color);
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  font-family: var(--main-family);
 }
 
 .container {
@@ -31,6 +34,7 @@ body {
   color: var(--main-color);
   text-decoration: none;
   transition: 0.3s;
+  font-size: var(--nav-size);
 }
 
 .navbar a:hover {
@@ -104,4 +108,71 @@ h1 {
   position: absolute;
   top: -100px;
   right: -80px;
+}
+
+.right__icons {
+  position: absolute;
+}
+
+#vector-1 {
+  top: 0;
+  left: 20px;
+}
+
+#vector-2 {
+  top: -25px;
+  right: 0;
+}
+#vector-3 {
+  bottom: -55px;
+  left: -10px;
+}
+
+#vector-4 {
+  bottom: -25px;
+  right: -20px;
+}
+
+.services {
+  margin-top: 220px;
+}
+
+.services-title {
+  font-size: var(--section-title-size);
+  color: white;
+}
+
+.services .services-title {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.services-list {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 120px;
+}
+
+.services-list__item {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 40px;
+}
+
+.item__title {
+  font-size: var(--services-title-size);
+  font-weight: 600;
+  line-height: 38px;
+  color: var(--white-color);
+  letter-spacing: -0.75px;
+}
+
+.item__description {
+  color: var(--main-color);
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  margin-top: 10px;
 }
